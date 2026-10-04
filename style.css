@@ -1,0 +1,103 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f7fc;
+}
+
+header{
+    background:#2c3e50;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:20px;
+    padding:25px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:12px;
+    box-shadow:0 4px 12px rgba(0,0,0,0.1);
+}
+
+.card h2{
+    margin-bottom:15px;
+    color:#2c3e50;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom:10px;
+    border:1px solid #ccc;
+    border-radius:6px;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    border:none;
+    background:#3498db;
+    color:white;
+    border-radius:6px;
+    cursor:pointer;
+    font-size:15px;
+}
+
+button:hover{
+    background:#2980b9;
+}
+
+.qr-box{
+    height:150px;
+    border:2px dashed #3498db;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:15px;
+    font-size:20px;
+    font-weight:bold;
+    color:#3498db;
+}
+
+.info p{
+    margin:12px 0;
+    font-size:16px;
+}
+
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table th,
+table td{
+    border:1px solid #ddd;
+    padding:10px;
+    text-align:center;
+}
+
+table th{
+    background:#3498db;
+    color:white;
+}
+
+.approved{
+    color:green;
+    font-weight:bold;
+}
+
+.pending{
+    color:orange;
+    font-weight:bold;
+}
